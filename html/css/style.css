@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'transcription';
+  src: url('font/transcription.eot'); /* IE9 Compat Modes */
+  src: url('font/transcription.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/transcription.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/transcription.woff') format('woff'), /* Pretty Modern Browsers */
+       url('font/transcription.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('font/transcription.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: transcription;
+}
+
+*, *:before, *:after {
+  font-family: inherit;
+  box-sizing: border-box;
+}
